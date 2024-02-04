@@ -1,0 +1,86 @@
+[ 
+	{ 
+		"id": 1, 
+		"name": "Rat", 
+		"description": "a rat warrior calm smilling with gourd in tribal tattoo style", 
+		"price": 9.99, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_965.png"
+	}, 
+	{ 
+		"id": 2, 
+		"name": "Ox", 
+		"description": "bull with rose ,tribal style tattoo", 
+		"price": 19.99, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_153.png"
+	}, 
+	{ 
+		"id": 3, 
+		"name": "Tigger", 
+		"description": "Crouching Tiger up to mountain with strong winds, Neo Traditional tattoo style", 
+		"price": 20, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_959.png"
+	}, 
+	{ 
+		"id": 4, 
+		"name": "Rabbit", 
+		"description": "Cute happy Rabbit jumping accross chrysanthemum, Dotwork tattoo style", 
+		"price": 25, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_512.png"
+	}, 
+	{ 
+		"id": 5, 
+		"name": "Dragon", 
+		"description": "hidden dragon in cloud tattoo, Illustrative tattoo style", 
+		"price": 30, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_951.png"
+	}, 
+	{ 
+		"id": 6, 
+		"name": "Snake", 
+		"description": "a snake eating the end of its tale with a lotus in the Cybersigilism Tattoo Style", 
+		"price": 999, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_939.png"
+	},
+	{ 
+		"id": 7, 
+		"name": "Horse", 
+		"description": "Smart and strong Horse running fast, Sketch tattoo style ", 
+		"price": 9.99, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_160.png"
+	}, 
+	{ 
+		"id": 8, 
+		"name": "Goat", 
+		"description": "cheerfull Goat bring with Lingzhi, Watercolor tattoo style ", 
+		"price": 19.99, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_466.png"
+	}, 
+	{ 
+		"id": 9, 
+		"name": "Monkey", 
+		"description": "happy cute smart small monkey siting on the tree with pitch, Sketch tattoo style", 
+		"price": 20, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_483.png"
+	}, 
+	{ 
+		"id": 10, 
+		"name": "Rooster", 
+		"description": "Cheerfull rooster singing happyly, with rose,  Cybersigilism Tattoo Style", 
+		"price": 25, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_974.png"
+	}, 
+	{ 
+		"id": 11, 
+		"name": "Dog", 
+		"description": "brave dog barking with a lotus ,3D Tattoo Style", 
+		"price": 30, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_417.png"
+	}, 
+	{ 
+		"id": 12, 
+		"name": "Pig", 
+		"description": "enjoyful pig wild boar running with moon, Sketch tattoo style", 
+		"price": 999, 
+		"image": "http://localhost:5173/tattoo/v1_txt2img_253.png"
+	} 	 
+]
