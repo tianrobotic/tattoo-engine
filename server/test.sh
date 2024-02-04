@@ -15,7 +15,7 @@ curl -f -sS -X POST "$URL" \
   --data-raw '{
     "text_prompts": [
       {
-        "text": "A lighthouse on a cliff"
+        "text": "A lighthouse on a cliff "
       }
     ],
     "cfg_scale": 7,
