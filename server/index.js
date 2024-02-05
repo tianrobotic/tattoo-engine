@@ -10,11 +10,11 @@ app.use(cors());
 async function textToImage(prompt) {
 	const path =
 		"https://api.stability.ai/v1/generation/stable-diffusion-v1-6/text-to-image";
-
+	const key = process.env.KEY
 	const headers = {
 		"Content-Type": "application/json",
 		"Accept": "application/json",
-		"Authorization": "xxxxxxx"
+		"Authorization": `${key}`
 	};
 
 	// let prompt = 'a ' + zodiac + ' ' + action +' with a '+ symbol + 'in' + tattoStyle
@@ -51,6 +51,8 @@ async function textToImage(prompt) {
 		ret.message = 'Performance issue'
 	} else {
 		const responseJSON  = await response.json()
+		const HOST = process.env.HOST
+		const PORT = process.env.FRONT_PORT
 		responseJSON.artifacts.forEach((image, index) => {
 			const id = Math.floor(Math.random() * 1024)
 			const fileName = `tattoo/v1_txt2img_${id}.png`
@@ -59,7 +61,7 @@ async function textToImage(prompt) {
 				fullPath,
 			  Buffer.from(image.base64, 'base64')
 			)
-			ret.image  = `http://localhost:5173/${fileName}`
+			ret.image  = `http://${HOST}:${PORT}/${fileName}`
 			ret.description = prompt
 			ret.id = id
 			ret.name = prompt.substring(0,10)
@@ -86,6 +88,6 @@ app.post("/api/tattos", (req, res) => {
 
 })
 
-app.listen(5000, () => {
+app.listen(process.env.PORT, () => {
 	console.log('Server started on port 5000');
 }); 
