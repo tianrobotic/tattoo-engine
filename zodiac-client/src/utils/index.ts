@@ -15,7 +15,7 @@ export const getImages = async (query: string): Promise<Image[]> => {
     try {
         const { data } = await axios.get(url)
         let tattoos: Image[] = dataset
-        tattoos.map(tattoo =>{tattoo.image.replace("localhost", HOST+'')})
+        tattoos.map(tattoo =>{tattoo.image = tattoo.image.replace("localhost", HOST+'')})
         let tattoo: Image = data
         console.log(tattoo)
         console.log(tattoos.unshift(tattoo))
